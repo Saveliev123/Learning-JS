@@ -1,1 +1,2 @@
-# Learning-JS
+# Изучение JS
+Язык JavaScript
