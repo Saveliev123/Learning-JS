@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<body>
+  <script>
+    function readNumber() 
+    {
+      let a;
+      do
+      {
+        a = prompt("Введите число");
+      }
+      while(!isFinite(a));
+      if (a === null || a === "")
+      {
+        return null;
+      }
+
+      return `Число: ${a}`;
+
+    }
+
+    alert( readNumber() );
+
+  </script>
+</body>
+</html>
